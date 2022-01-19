@@ -302,6 +302,9 @@ section {
 .section-title p {
   margin-bottom: 0;
 }
+.text-right{
+  text-align: right!important;
+}
 
 /*--------------------------------------------------------------
 # About
@@ -390,7 +393,7 @@ section {
 .skills .progress .skill {
   padding: 0;
   margin: 0 0 6px 0;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
@@ -409,6 +412,10 @@ section {
   height: 10px;
   transition: 0.9s;
   background-color: #149ddd;
+}
+.skills .progress .skill i{
+  font-size: medium;
+  margin-right: 5px;
 }
 
 /*--------------------------------------------------------------
@@ -801,6 +808,10 @@ section {
   margin-bottom: 20px;
   font-size: 14px;
   color: #173b6c;
+}
+.contact .info p a {
+  color: #222222;
+  /* #173b6c; */
 }
 .contact .info .email p {
   padding-top: 5px;
